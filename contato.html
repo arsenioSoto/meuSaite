@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Contacto - Barbearia Soto</title>
+
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<div class="caixa">
+				<h1><img src="logo.png" alt="Logo da Barbearia Arsenio"></h1>
+
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="produtos.html">Produtos</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+			<main>
+				<form>
+					<label for="nomeCompleto">Nome Completo:</label> 
+					<input type="text" id="nomeCompleto" class="input-padrao" name="" required>
+
+					<label for="email">Email:</label>
+					<input placeholder="exemplo@gmail.com" class="input-padrao" type="email" id="email" name="" required>
+
+					<label for="morada">Morada:</label>
+					<input type="text" id="morada" class="input-padrao" name="" required>
+
+					<label for="corte">Tipo de Corte:</label>
+					<input type="text" id="corte" class="input-padrao"name="" required>
+
+					<label  for="telefone">Telefone</label>
+					<input placeholder="(+258)-845-072-619" type="tel" id="telefone" class="input-padrao" name="" required>
+
+					<label for="grauUrgencia">Grau de Urgencia:</label>
+					<input type="text" id="grauUrgencia" class="input-padrao" name="" required>
+					
+					<label for="mensagem">Mensagem:</label>	
+					<textarea cols="71" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+					<fieldset>
+						<legend class="text" id="text">Como prefere o Nosso Contacto?</legend>
+						<label for="radio-email"><input type="radio" value="email" id="radio-email" name="contacto"> Email</label>
+						
+
+						<label for="radio-telefone"><input type="radio" value="telefone" id="radio-telefone" name="contacto"> Telefone</label>
+						
+
+						<label for="radio-whatsapp"><input type="radio" value="Whatsapp" id="radio-whatsapp" name="contacto" checked> Whatsapp</label>
+						
+						<label for="radio-fb"><input type="radio"  value="fb" id="radio-fb" name="contacto">Faceboock</label>
+						
+					</fieldset>
+
+
+					<label class="dt" for="data">Data</label>
+					<input placeholder="" type="date" id="data"  name="" required>
+
+					<fieldset>
+						<legend>Qual e o horario que deseja ser atendido?</legend>
+						<select>
+							<option>Manha</option>
+							<option>Tarde</option>
+							<option>Noite</option>
+						</select>
+					</fieldset>
+
+
+					<label class="checkbox"><input type="checkbox" checked>Gostaria de Receber nossas Novidades por email?</label>
+
+					<input type="submit" title="Clique para Enviar" value="Enviar"  class="enviar">
+				</form>
+				<table>
+					<thead>
+						<tr>
+							<th>Dia</th>
+							<th>Horario</th>
+						</tr>
+					</thead>
+				<tbody>
+					<tr>
+						<td>Segunda</td>
+						<td>08:00 - 20:00</td>
+					</tr>
+					<tr>
+						<td>Terca</td>
+						<td>08:00 - 17:00</td>
+					</tr>
+					<tr>
+						<td>Quarta</td>
+						<td>08:00 - 17:00</td>
+					</tr>
+					<tr>
+						<td>Quinta</td>
+						<td>08:00 - 20:00</td>
+					</tr>
+					<tr>
+						<td>Sexta</td>
+						<td>08:00 - 20:00</td>
+					</tr>
+
+					<tr>
+						<td>Sabado</td>
+						<td>08:00 - 20:00</td>
+					</tr>
+					<tr>
+						<td>Domingo</td>
+						<td>08:00 - 20:00</td>
+					</tr>
+				</tbody>		
+			</table>
+
+			</main>
+
+			
+		<footer>
+			<img src="logo-branco.png" alt="Logo da Barbearia Arsenio">
+			<p class="copyright">&copy; Copyright Barbearia Soto - 2021</p>
+		</footer>
+	</body>
+</html>
